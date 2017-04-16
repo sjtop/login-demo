@@ -1,0 +1,20 @@
+{
+  "name": "login-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "art-template": "^4.0.0-beta8",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "jquery.cookie": "^1.4.1",
+    "less": "^2.7.2"
+  }
+}
