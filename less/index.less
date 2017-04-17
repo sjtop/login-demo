@@ -1,0 +1,95 @@
+//引入样式
+@import './base.less';
+
+
+//左边栏
+.aside {
+    //固定位置
+    position:fixed;
+    top:0;
+    left:0;
+    width:180px;
+    height:100%;
+    background-color: #2f4050;
+    color: #a9b0c2;
+    //用户信息
+    .user{
+        padding: 30px 0;
+        text-align: center;
+        background-color: #243443;
+    .admin{
+        padding-bottom: 10px;
+    }        
+    .admin img{
+        width: 75px;
+        height: 75px;
+        border: 3px solid rgba(255, 255, 250, 0.3);
+    }
+  }
+  .menu {
+      margin-top: 40px;
+      a {
+            display: block;
+            line-height: 1;
+            padding: 8px 0;
+            color: #a9b0c2;
+            padding-left: 40px;
+        }
+
+        a:hover {
+            background-color: #243443;
+            color: #F6F6F6;
+        }
+
+     ul {
+         padding: 0;
+         margin: 0;
+         ul a {
+              padding-left: 60px;
+         }//?为什么不用li
+            
+     }
+     li {
+         list-style: none;
+     }
+  }
+
+
+}
+//主体
+.main{
+    margin-left:180px;
+    height:700px;
+    background-color: #F5F6F8;
+    
+
+//主体-头部的样式
+.header{
+     .navbar-default {
+            background-color: #fff;
+        }
+/*     .navbar-brand {
+    height: auto;
+    line-height: 1;
+    padding: 4px 6px;
+    margin: 12px 0 0 15px;
+    color: #FFF;
+    background-color: #5cb85c;
+    border-radius: 2px;
+}*/
+}
+
+//主体-body设置
+    .body {
+        padding:0 20px;
+       .breadcrumb {
+            background-color: #fff;
+            border: 1px solid #e7e7e7;
+        }
+        .table th,
+        .table td{
+            text-align: center;
+        }
+
+    }
+}
